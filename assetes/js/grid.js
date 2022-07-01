@@ -2,14 +2,14 @@
 
 
 var humber = document.getElementById("icon-humber");
-function showmenu() {
+function showMenu() {
    
-   var mhumber= document.getElementById("menu-humber");
-    if (mhumber.className === "menu-humber d-none"){
+   var mhumber= document.querySelector(".itemsMenuHamber");
+    if (mhumber.className === "itemsMenuHamber d-none"){
       
         mhumber.className+="d-show"
     }else{
-        mhumber.className="menu-humber d-none"
+        mhumber.className="itemsMenuHamber d-none"
     }
 }
 
