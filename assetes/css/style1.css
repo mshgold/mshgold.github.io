@@ -75,28 +75,59 @@ body {
 }
 
 .titleHeader {
-   
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}.titleHeader-title {
+}
+
+.titleHeader-title {
     padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.btnCourse button{
-font-family: vazirmatn-bold;
-padding: 10px;
-border-radius: 15px;
-background-color: #5dd3b4;
-color: #070b11;
-border: none;
-outline: 0;
+
+.btnCourse button {
+    font-family: vazirmatn-bold;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #5dd3b4;
+    color: #070b11;
+    border: none;
+    outline: 0;
 }
 
+.itemsMenuHamber li a {
+    font-size: .8rem;
+    color: #070b11;
+    padding: .5rem .5rem;
+
+
+}
+
+.itemsMenuHamber li {
+    border-bottom: 2px solid rgb(216, 202, 202);
+
+}
+
+.itemsMenuHamber {
+    /* padding: .5rem 1rem; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: #5dd3b4;
+    width: 100%;
+}
+
+.navbar {
+    position: relative;
+    padding:.5rem .5rem;
+}
 
 
 .navbar ul {
@@ -104,15 +135,6 @@ outline: 0;
 
 }
 
-.navbar ul a {
-    padding: 0 10px;
-    color: black !important;
-    font-weight: 700;
-    font-size: 20px;
-    font-family: vazirmatn-bold;
-}
-
-.MainContainer {}
 
 .imgHeader {
     width: 50rem;
