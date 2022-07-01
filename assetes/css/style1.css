@@ -1,0 +1,120 @@
+@font-face {
+    font-family: vazirmatn-bold;
+    src: url(../../assetes/fonts/Vazirmatn-SemiBold.woff2) format("woff2");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    direction: rtl;
+    text-align: right;
+    /* margin: 0 auto; */
+}
+
+body {
+
+    background: #FFFFFF
+}
+
+.header {
+    width: 100%;
+    height: 20%;
+    background: rgb(228, 238, 254);
+    background: linear-gradient(90deg, rgba(228, 238, 254, 1) 0%, rgba(228, 240, 247, 1) 28%, rgba(221, 231, 244, 1) 63%, rgba(199, 218, 248, 1) 100%);
+}
+
+.logo img {
+    width: 3rem;
+    height: 2.5rem;
+    /* border-radius: 50%; */
+}
+
+.hambergerMenu img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.cartLogin {
+    font-family: vazirmatn-bold;
+    font-size: 0.8rem;
+}
+
+.cart {
+    margin: 0 10px;
+}
+
+.titleHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleHeader img {
+    width: 100%;
+    height: 20%;
+    border: 1px solid rgb(216, 202, 202);
+}
+
+.titleHeader-title h3 {
+    font-family: vazirmatn-bold;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.titleHeader-title h5 {
+    font-family: vazirmatn-bold;
+    font-size: .7rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 25px;
+}
+
+.titleHeader {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}.titleHeader-title {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btnCourse button{
+font-family: vazirmatn-bold;
+padding: 10px;
+border-radius: 15px;
+background-color: #5dd3b4;
+color: #070b11;
+border: none;
+outline: 0;
+}
+
+
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar ul a {
+    padding: 0 10px;
+    color: black !important;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: vazirmatn-bold;
+}
+
+.MainContainer {}
+
+.imgHeader {
+    width: 50rem;
+    height: 30rem;
+
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: vazirmatn-bold;
+    src: url(../../assetes/fonts/Vazirmatn-SemiBold.woff2) format("woff2");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: vazirmatn-bold;
+    background-color: #dcdcdc;
+}
+
+* {
+    direction: rtl;
+    text-align: right;
+    /* margin: 0 auto; */
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.app {
+    /* width: 1500px; */
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media only screen and (max-width:991.98px) {
+
+    .icon-humber {
+        color: #ffd662;
+        padding: 1rem 1rem;
+        font-size: 1.5rem;
+    }
+    .img-logo {
+        width: 100px;
+        height: 50px;
+       border-radius:10px;
+        /* display: none; */
+        /* display: inline-block; */
+        margin-top:12px;
+    }
+    .header-right{
+        justify-content: space-between;
+    }
+
+    .header{
+        position: relative;
+    }
+
+}

@@ -1,0 +1,162 @@
+.header {
+   display: flex;
+   position: fixed;
+   line-height: 3rem;
+   width: 100%;
+   background-color: #00539c;
+
+
+}
+.d-show{
+    display: inline;
+}
+
+.header-right{
+    display: flex;
+    width:calc(100% - 5rem);
+}
+.navbar-menu{
+    display: flex;
+}
+.title-main {
+    /* margin: 5rem 3rem; */
+    /* background: url(../../assetes/images/header.png); */
+    text-align: center;
+}
+.img-header{
+   width: 90%;
+   margin: 5.2rem auto;
+    height: 35vw;
+    background-position: center center;
+    
+}
+
+.header-list {
+    margin: 1rem;
+    padding: 0;
+    /* width: 80%; */
+    flex-wrap: nowrap;
+    /* overflow: auto; */
+}
+
+.navbar {
+    background-color: #00539c;
+    /* width: 100%; */
+    border-bottom: 1px solid black;
+}
+
+
+.img-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* display: none; */
+    display: inline-block;
+    margin: 12px 25px;
+}
+
+
+.navbar-menu a {
+    font-size: 0.95rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* padding: 0.3rem 0; */
+    color: #ffd662;
+}
+
+
+.navbar-menu{
+margin: 0 0;
+}
+.navbar-menu a:hover {
+    text-decoration: none;
+
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+
+}
+
+
+.svg-wrapper {
+    position: relative;
+    margin-left: .8rem;
+    width: 7.5rem;
+}
+
+.shape {
+    stroke-dasharray: 7rem 11rem;
+    stroke-dashoffset:9rem;
+    stroke-width: 8px;
+    fill: transparent;
+    stroke: #ffffff;
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dasharray 1s, stroke-dashoffset 1s;
+    width:7rem;
+    height: 2rem;
+}
+
+.svg{
+    width: 7rem;
+    height: 2rem;
+}
+
+.svg-wrapper:hover .shape {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 320;
+}
+
+.header-left{
+   padding: .8rem 0 0rem 0;
+   width:12rem;
+   
+}
+.img-header-left{
+    width: 30px;
+    color: #ffffff;
+}
+
+.sign-in p{
+    color: #ffd662;
+}
+.menu-humber{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:5rem 0rem 2rem 0  ;
+    background-color:#dcdcdc;
+    width: 50%;
+    z-index: 1000;
+    padding: 1rem;
+}
+
+.menu-humber li{
+    border-bottom: 1px solid #ffffff;
+}
+
+.custom-shape-divider-top-1655145654 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1655145654 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1655145654 .shape-fill {
+    fill: #FFFFFF;
+}
