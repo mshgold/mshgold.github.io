@@ -18,7 +18,7 @@
 
 body {
 
-    background: #FFFFFF
+    background: #c0daeb
 }
 
 .header {
@@ -57,7 +57,9 @@ body {
 .titleHeader img {
     width: 100%;
     height: 20%;
-    border: 2.5px solid rgb(216, 202, 202);
+    border-top: 2.5px solid rgb(216, 202, 202);
+    border-bottom: 2.5px solid rgb(216, 202, 202);
+
 }
 
 .titleHeader-title h3 {
@@ -135,10 +137,25 @@ body {
     display: flex;
 
 }
-
-
 .imgHeader {
     width: 50rem;
     height: 30rem;
-
+}
+/* disign for main */
+.itemCourse{
+    background-color: #02c5ff;
+    margin: .5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: .5rem;
+    border-radius: 20px;
+} 
+.imgCourseJava img{
+    border-radius: 20px;
+    margin: .5rem 0;
+}
+.titleCourseJava p{
+color: #070b11;
 }
