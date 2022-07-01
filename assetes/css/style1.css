@@ -34,7 +34,7 @@ body {
     /* border-radius: 50%; */
 }
 
-.hambergerMenu img {
+.hambergerIcon img {
     width: 2.5rem;
     height: 2.5rem;
 }
@@ -102,17 +102,11 @@ body {
     outline: 0;
 }
 
-.itemsMenuHamber li a {
-    font-size: .8rem;
-    color: #070b11;
-    padding: .5rem .5rem;
-
-
-}
 
 .itemsMenuHamber li {
     border-bottom: 2px solid rgb(216, 202, 202);
-
+    
+    
 }
 
 .itemsMenuHamber {
@@ -121,10 +115,19 @@ body {
     flex-direction: column;
     position: absolute;
     right: 0;
-    top: 50px;
+    top: 55px;
     background-color: #5dd3b4;
     width: 100%;
     transition: 2s ease-in-out;
+    opacity: 0.8;
+}
+.itemsMenuHamber li a {
+    font-size: .8rem;
+    color: #070b11;
+    padding: .5rem .5rem;
+    opacity: 1!important;
+
+
 }
 
 .navbar {
